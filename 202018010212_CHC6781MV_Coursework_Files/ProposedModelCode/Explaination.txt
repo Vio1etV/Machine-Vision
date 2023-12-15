@@ -1,0 +1,11 @@
+These two files are the same proposed code
+
+Run1 is showing all the results needed
+
+Run2 is modified to store history of model training in a csv file for fair comparison
+
+For Grad-CAM explaination, the value of the convolutional output is used for heat map generation
+
+however, each time compile or initializing a model will change the name of the targeted layer in grad-cam
+code, therefore, plz restart the kernel each time, or you can get the last layer through other codes.
+Setting the layer name manually is what I did
